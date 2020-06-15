@@ -1,0 +1,127 @@
+.btn-primary {
+  background-color: #b35093;
+  border: 0;
+  padding: 15px 41px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #913975;
+  border: 0;
+}
+
+.btn-secondary {
+  background: none;
+  border: 1px solid #bcd0e5;
+  padding: 15px 41px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #173a56;
+}
+
+.btn-secondary:hover {
+  background-color: rgb(241, 241, 241);
+  border: 1px solid #bcd0e5;
+  color: #173a56;
+}
+
+.section-hero h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #2f281e;
+}
+
+.section-hero p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #2f281e;
+}
+
+.navbar-nav .nav-link {
+  color: #2f281e;
+}
+
+/* Login */
+.login {
+  margin-top: 10%;
+  width: 30%;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+
+.login .btn-primary,
+.login .btn-danger {
+  padding: 8px 10px;
+  font-size: 16px;
+  font-weight: 300;
+  width: 49%;
+}
+
+.pertanyaan {
+  font-family: "Poppins", sans-serif;
+}
+
+.pertanyaan a {
+  text-decoration: none;
+  color: #dd8809;
+}
+
+.pertanyaan a:hover {
+  text-decoration: none;
+  color: #ac6d0e;
+}
+
+/* Registrasi */
+.registrasi {
+  margin-top: 6%;
+  width: 30%;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+
+.registrasi .btn-primary,
+.registrasi .btn-danger {
+  padding: 8px 10px;
+  font-size: 16px;
+  font-weight: 300;
+  width: 49%;
+}
+
+/* ADMIN */
+
+/* Dashboard */
+.display-4 {
+  font-weight: bold;
+}
+
+.card-body-icon {
+  position: absolute;
+  z-index: 0;
+  top: 25px;
+  right: 13px;
+  opacity: 0.4;
+  font-size: 90px;
+}
+
+.text-white {
+  font-size: 16px;
+  text-decoration: none !important;
+}
+
+.text-white:hover {
+  font-size: 18px;
+  text-decoration: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .btn-primary,
+  .btn-secondary {
+    margin-top: 10px;
+    margin-left: 0 !important;
+  }
+
+  .gambar-hero {
+    display: block;
+  }
+}
